@@ -20,3 +20,8 @@ public class Calculadora {
         double num2 = scanner.nextDouble();
 
         double resultado = 0;
+
+        switch (opcion) {
+            case 1:
+                resultado = num1 + num2;
+                break;
