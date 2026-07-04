@@ -31,3 +31,16 @@ public class Calculadora {
             case 3:
                 resultado = num1 * num2;
                 break;
+            case 4:
+                resultado = num1 / num2;
+                break;
+            default:
+                System.out.println("Opción no válida");
+                return;
+        }
+
+        System.out.println("Resultado: " + resultado);
+
+        scanner.close();
+    }
+}
